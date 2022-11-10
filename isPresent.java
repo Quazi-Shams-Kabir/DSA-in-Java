@@ -12,4 +12,6 @@ public class isPresent {
         }
             return false;
     }
+
+    //we can search in range too just add the starting point and end point in the for loop
 }
