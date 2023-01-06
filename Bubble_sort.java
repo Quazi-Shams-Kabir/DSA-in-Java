@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Bubble_sort {
     public static void main(String[] args) {
-        int[] arr = {3,5,8,6,4,1};
+        int[] arr = {4,5,3,2,1};
         bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
     }
@@ -22,9 +22,9 @@ public class Bubble_sort {
                     isSwapped=true;
                 }
                 //it'll ensure the loop will break if no swapping occur, which eventually mean the array is sorted
-                if (!isSwapped){
-                    break;
-                }
+            }
+            if (!isSwapped){
+                break;
             }
         }
     }
